@@ -45,4 +45,35 @@
               text-decoration: none;
               transition: color 0.3s;
           }
-          .social-icons a:hover 
+          .social-icons a:hover {
+                  color: #0073e6;
+          }
+            .button {
+                  background-color: #4CAF50;
+                  border: none;
+                  border-radius: 5px ;
+                  color: white;
+                  cursor: pointer;
+                  margin-bottom: 15px;
+                  padding: 10px 20px;
+                  transition: background-color 0.3s;
+            }
+            .button:hover {
+                  background-color: #45a049;
+            }
+            @media (max-width: 768px) {
+                  .profile-card {
+                        width: 90%;
+                  }
+            }
+      </style>
+      <script>
+            function followAlert() {
+                  alert('You are now following this user!');
+            }
+      </script>
+</head>
+<body>
+      
+</body>
+</html>
